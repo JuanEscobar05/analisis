@@ -1,0 +1,2 @@
+
+SELECT TOP 10  p.Name AS Producto, SUM(d.OrderQty) AS CantidadVendida FROM Sales.SalesOrderDetail d JOIN Production.Product p ON d.ProductID = p.ProductID GROUP BY p.Name ORDER BY CantidadVendida DESC;

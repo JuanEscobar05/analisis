@@ -1,0 +1,22 @@
+{
+    "sqltools.connections": [
+        {
+            "connectionTimeout": 15,
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": false,
+                "trustServerCertificate": true
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "DESKTOP-1CDO2BS\\SQLEXPRESS",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "db",
+            "database": "AdventureWorks2022",
+            "username": "juanadmin",
+            "password": "Juan.2511"
+        }
+    ]
+}
